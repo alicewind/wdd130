@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #264653;
+    --secondary-color: #2a9d8f;
+    --accent1-color: #f4a261;
+    --accent2-color: #e76f51;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 5px;
+}
+
+h1 {
+    color: var(--accent1-color);
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--primary-color);
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+div .hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 175px;
+    left: 15rem;
+}
+
+article {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    margin: 1px;
+    border: 1px;
+    padding: 5px;
+}
+
+#small {
+    float: right;
+    width: 100px;
+    height: auto;
+}
