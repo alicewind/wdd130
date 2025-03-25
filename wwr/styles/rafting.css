@@ -10,6 +10,10 @@ nav {
     padding: 5px;
 }
 
+nav a {
+    color: black;
+}
+
 h1 {
     color: var(--accent1-color);
 }
@@ -38,13 +42,13 @@ div .hero {
 
 h1 {
     position: absolute;
-    top: 175px;
+    top: 185px;
     left: 15rem;
 }
 
 article {
     position: absolute;
-    top: 350px;
+    top: 450px;
     left: 100px;
     margin: 1px;
     border: 1px;
