@@ -85,6 +85,19 @@ article p {
     height: auto;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.history h2 {
+    grid-column: 1/4;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+.history img {}
+
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
