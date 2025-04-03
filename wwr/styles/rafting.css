@@ -95,23 +95,25 @@ article p {
 .history img {}
 
 .adventure {
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr 1fr 1fr);
     background-color: #2a9d8f;
     max-width: 100%;
 }
 
 .adventure h2 {
+    grid-row: 1/2;
     text-align: center;
     padding: 10px 0 0 0;
     color: #ffffff;
 }
 
 figure {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-row: 2/3;
+    /* grid-column: 1/6; */
 }
 
 figure img {
-    grid-row: 1/2;
     padding: 5px;
 }
 
