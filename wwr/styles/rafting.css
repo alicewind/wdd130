@@ -83,6 +83,18 @@ article p {
     height: auto;
 }
 
+.contact {
+    position: relative;
+}
+
+.contact h1 {
+    position: relative;
+}
+
+.contact p {
+    text-align: center;
+}
+
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -124,11 +136,28 @@ article p {
     color: #ffffff;
 }
 
+.employee-profiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #2a9d8f;
+    max-width: 100%;
+    justify-items: center;
+}
+
+.employee-profiles h2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+    padding: 5px 0 0 0;
+    color: #ffffff;
+}
+
 figure {
     grid-row: 2/3;
     align-items: center;
-    justify-content: center;
-    margin: 8px;
+    justify-content: space-around;
+    margin: 10px;
+    width: 80%;
 }
 
 figure img {
@@ -139,6 +168,22 @@ figure figcaption {
     text-align: center;
     color: #ffffff;
     padding: 0 0 5px 0;
+}
+
+.message {
+    display: flex;
+    pad: 20px;
+    justify-content: center;
+}
+
+.message form {
+    /* background-color: aquamarine; */
+    padding: 0px 30px 0px 30px;
+    margin-bottom: 1.5rem;
+}
+
+.message iframe {
+    margin-top: 30px;
 }
 
 footer {
