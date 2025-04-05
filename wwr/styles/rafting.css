@@ -214,7 +214,7 @@ figure figcaption {
     color: #ffffff;
     background-color: #f0876d;
     font-size: 15pt;
-    border-style: unset;
+    border: none;
     padding: .5rem;
 }
 
