@@ -33,15 +33,41 @@ header nav a {
     border: 1px solid var(--primary-color);
     text-align: center;
     text-decoration: none;
+    font-family: Poppins;
     color: var(--primary-color);
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    top: .5rem;
+    text-align: center;
+    color: var(--accent1-color);
+    font-size: 25pt;
+    font-family: DM;
+    font-weight: 400;
 }
 
 h2 {
     color: var(--primary-color);
+    font-family: Poppins;
+    font-weight: 200;
+}
+
+h3 {
+    color: var(--primary-color);
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12pt;
 }
 
 p {
     color: var(--primary-color);
+    font-family: Poppins;
+}
+
+main {
+    font-family: Poppins;
 }
 
 .hero {
@@ -52,14 +78,6 @@ p {
     display: block;
     width: 100%;
     height: auto;
-}
-
-h1 {
-    position: absolute;
-    width: 100%;
-    top: .5rem;
-    text-align: center;
-    color: var(--accent1-color);
 }
 
 article {
@@ -126,6 +144,7 @@ article p {
     background-color: #2a9d8f;
     max-width: 100%;
     justify-content: center;
+    font-family: Poppins;
 }
 
 .adventure h2 {
@@ -150,6 +169,10 @@ article p {
     text-align: center;
     padding: 5px 0 0 0;
     color: #ffffff;
+}
+
+.employee-profiles figure {
+    font-size: 10pt;
 }
 
 figure {
@@ -182,14 +205,20 @@ figure figcaption {
     margin-bottom: 1.5rem;
 }
 
+.message form textarea {
+    width: 100%;
+}
+
 .message iframe {
-    margin-top: 30px;
+    /* margin: 20px; */
+    align-self: center;
 }
 
 footer {
     background-color: var(--accent1-color);
     display: flex;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
 }
 
@@ -204,5 +233,12 @@ footer p {
 }
 
 .sociallinks a {
-    padding: 10px;
+    padding: 10px 10px;
+}
+
+.wireframe a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-family: Poppins;
 }
