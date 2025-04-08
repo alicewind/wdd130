@@ -42,7 +42,7 @@ h1 {
     width: 100%;
     top: .5rem;
     text-align: center;
-    color: var(--accent1-color);
+    color: #c05135;
     font-size: 25pt;
     font-family: DM;
     font-weight: 400;
@@ -212,7 +212,7 @@ figure figcaption {
 .message form button {
     font-family: Poppins;
     color: #ffffff;
-    background-color: #f0876d;
+    background-color: #c05135;
     font-size: 15pt;
     border: none;
     padding: .5rem;
@@ -223,7 +223,7 @@ figure figcaption {
 }
 
 footer {
-    background-color: var(--accent1-color);
+    background-color: #f1b27e;
     display: flex;
     justify-content: space-between;
     align-items: center;
