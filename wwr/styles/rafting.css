@@ -180,11 +180,40 @@ main {
 .information {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 
 .information h2 {
     grid-column: 1/3;
     text-align: center;
+    font-weight: 400;
+}
+
+.information form {
+    background-color: #c05135;
+    color: #ffffff;
+    margin: 10px;
+    padding: 15px 0 15px 45px;
+}
+
+.information form h3 {
+    color: #ffffff;
+}
+
+.information form button {
+    font-family: Poppins;
+    color: #ffffff;
+    background-color: #264653;
+    font-size: 12pt;
+    border: none;
+    padding: .5rem;
+    margin: 5px;
+}
+
+
+.information img {
+    margin: 10px;
+    width: auto;
 }
 
 .information article {
