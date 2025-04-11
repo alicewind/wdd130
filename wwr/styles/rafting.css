@@ -346,6 +346,56 @@ figure figcaption {
     align-self: center;
 }
 
+.callout nav {
+    background-color: #c05135;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.callout nav a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--primary-color);
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+caption {
+    padding: 10px;
+    font-weight: 700;
+    color: #264653;
+    text-align: left;
+}
+
+thead {
+    background-color: #264653;
+    color: #ffffff;
+}
+
+thead th {
+    font-weight: 400;
+    color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid var(--primary-color);
+    padding: 8px 10px;
+    color: #264653;
+}
+
 footer {
     background-color: #f1b27e;
     display: flex;
@@ -354,6 +404,7 @@ footer {
     text-align: center;
     margin-top: 10px;
 }
+
 
 footer p {
     width: 100%;
