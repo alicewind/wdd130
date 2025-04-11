@@ -123,7 +123,7 @@ main {
     position: absolute;
     top: 13rem;
     right: 10rem;
-    background-color: #2a9d8f;
+    background-color: #24867b;
     padding: 12px;
     border-radius: 10px;
 }
@@ -214,7 +214,7 @@ main {
 }
 
 #quote {
-    background-color: var(--secondary-color);
+    background-color: #24867b;
     padding: 15px 35px 10px 35px;
     grid-row: 2/4;
     text-align: center;
@@ -242,7 +242,7 @@ main {
 }
 
 #amenities {
-    background-color: var(--secondary-color);
+    background-color: #24867b;
     color: #ffffff;
     text-align: center;
     padding: 0px 15px 0px 15px;
